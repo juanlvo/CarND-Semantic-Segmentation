@@ -34,6 +34,7 @@ def load_vgg(sess, vgg_path):
     vgg_layer7_out_tensor_name = 'layer7_out:0'
     
     # code write by juanlvo
+    tf.save_model.loader.load(sess, [vgg_tag], vgg_tag)
     graph = tf.get_default_graph()
     w1 = graph.get_tensor_by_name(vgg_input_tensor_name)
     keep = graph.get_tensor_by_name(vgg_keep_prob_tensor_name)
