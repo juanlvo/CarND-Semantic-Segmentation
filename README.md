@@ -78,7 +78,7 @@ python main.py
 	</tr>
 </table>
 
-##Examples of the road detected by the Neural Network
+<b>Examples of the road detected by the Neural Network</b>
 
 <img src="img/1.png" alt="Example 1"> 
 <img src="img/2.png" alt="Example 2"> 
